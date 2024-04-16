@@ -1,0 +1,262 @@
+/* Place CSS styles here */
+
+body {
+    font-family: "neue_haas_grotesk_display", sans-serif;
+    border-width: o;
+    margin: 0%;
+    padding: 0%;
+    background-color: #FADAC1 ;
+    color: #1d313c
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(18,120px);
+    gap: 0;
+
+}
+
+.big_n {
+    font-size: 450pt;
+    font-weight: 900;
+    font-style: normal;
+    line-height: 0.75;
+    position: absolute;
+    left: -33pt;
+    color: #c43B39;
+}
+.e {
+    font-size: 150pt;
+    font-weight: 800;
+    font-style: normal;
+    font-kerning: -120;
+    line-height: 0.75;
+    position: absolute;
+    top: 0;
+    left: 250pt;
+    color: #c43B39;
+}
+.u {
+    font-size: 150pt;
+    font-weight: 800;
+    font-style: normal;
+    font-kerning: -120;
+    line-height: 0.75;
+    position: absolute;
+    top: 0;
+    left: 329pt;
+    color: #c43B39;
+}
+.e2 {
+    font-size: 150pt;
+    font-weight: 800;
+    font-style: normal;
+    font-kerning: -120;
+    line-height: 0.75;
+    position: absolute;
+    top: 0;
+    left: 415pt;
+    color: #c43B39;
+}
+
+.big_h {
+    font-size: 600pt;
+    font-weight: 900;
+    font-style: normal;
+    line-height: 0.75;
+    position: absolute;
+    top: 240pt;
+    left: 128.5pt;
+    color: #50A3AB;;
+}
+
+.a {
+    font-size: 150pt;
+    font-weight: 300;
+    font-style: italic;
+    line-height: 0.75;
+    position: absolute;
+    top: 367pt;
+    left: 464pt;
+}
+
+.a2 {
+    font-size: 150pt;
+    font-weight: 300;
+    font-style: italic;
+    line-height: 0.75;
+    position: absolute;
+    top: 367pt;
+    left: 560pt;
+}
+
+.s {
+    font-size: 150pt;
+    font-weight: 300;
+    font-style: italic;
+    line-height: 0.75;
+    position: absolute;
+    top: 367pt;
+    left: 645pt;
+}
+
+.big_g {
+    font-size: 450pt;
+    font-weight: 900;
+    font-style: normal;
+    line-height: 0.75;
+    position: absolute;
+    top: 574pt;
+    left: 341pt;
+    color: #F6723A;
+}
+
+.rotesk {
+    font-size: 100pt;
+    font-weight: 100;
+    font-style: normal;
+    font-display: thin;
+    line-height: 0.75;
+    position: absolute;
+    top: 777pt;
+    left: 626pt;
+}
+
+.first_year {
+    grid-column-start: 4;
+    grid-column-end: 11;
+    grid-row-start: 1;
+    line-height: 0;
+    writing-mode: vertical-rl;
+}
+.max {
+    grid-column-start: 3;
+    grid-column-end: 11;
+    grid-row-start: 1;
+    grid-row-end: 7;
+    line-height: 2.5;
+    writing-mode: vertical-rl;
+}
+
+.second_year {
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 8;
+    grid-row-end: 15;
+    line-height: 2.5;
+    writing-mode: vertical-lr;
+}
+
+.chris {
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start:8;
+    grid-row-end: 15;
+    line-height: 0;
+    writing-mode: vertical-lr;
+}
+
+.paragraph_1 {
+    font-size: 18pt;
+    font-weight: 700;
+    font-style: normal;
+    padding: 8pt;
+    grid-column-start: 2;
+    grid-column-end: 5;
+    grid-row-start:12;
+    grid-row-end: 17;
+}
+
+.paragraph_2 {
+    font-size: 18pt;
+    font-weight: 100;
+    font-style: italic;
+    padding: 8pt;
+    text-align: center;
+    grid-column-start: 5;
+    grid-column-end: 8;
+    grid-row-start:12;
+    grid-row-end: 17;
+}
+
+.paragraph_3 {
+    font-size: 18pt;
+    font-weight: 400;
+    font-style: normal;
+    padding: 8pt;
+    text-align:right;
+    grid-column-start:8;
+    grid-column-end: 11;
+    grid-row-start:12;
+    grid-row-end: 17;
+}
+
+.special_letter {
+    font-size: 200pt;
+    font-weight: 800;
+    font-style: normal;
+    line-height: 0.75;
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 12;
+    grid-row-end: 12;
+    text-align: right;
+}
+
+.special_letter_2 {
+    font-size: 200pt;
+    font-weight: 800;
+    font-style: normal;
+    line-height: 0.75;
+    grid-column-start: 11;
+    grid-column-end: 11;
+    grid-row-start: 18;
+    grid-row-end: 18;
+}
+
+.special_letter_3 {
+    font-size: 800pt;
+    font-weight: 800;
+    font-style: normal;
+    line-height: 0;
+    grid-column-start: 6;
+    grid-column-end: 8;
+    grid-row-start: 1;
+    grid-row-end: 1;
+}
+
+.special_letter_4 {
+    font-size: 800pt;
+    position: absolute;
+    top: 350pt;
+    left: 700pt;
+    color: #c43B39;
+}
+
+h1 {
+    font-family: "neue_haas_grotesk_display", sans-serif;
+    font-size: 50pt;
+    font-weight: 600;
+    font-style: normal;
+
+}
+
+h2 {
+    font-family: "neue_haas_grotesk_display", sans-serif;
+    font-size: 50pt;
+    font-weight: 300;
+    font-style: normal;
+    font-display: thin;
+}
+
+
+
+
+
+
+
+
+
+
+
